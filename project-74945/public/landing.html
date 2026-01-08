@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Story Jigsaw — A story, out of order.</title>
+  <meta name="description" content="Story Jigsaw is a once-a-day puzzle where you piece a short story back together. No timer. No trivia. Just meaning." />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    :root {
+      --cream: #FAF9F6;
+      --ink: #2C2C2C;
+      --ink-light: #4A4A4A;
+      --ink-muted: #8A8A8A;
+      --warm-300: #E8E4DB;
+      --accent: #6B8E7B;
+      --accent-light: #E8F0EB;
+    }
+    
+    body {
+      font-family: 'Lora', Georgia, serif;
+      background-color: var(--cream);
+      color: var(--ink);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    
+    /* Header */
+    header {
+      padding: 24px 0;
+      border-bottom: 1px solid var(--warm-300);
+    }
+    
+    .logo {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-weight: 600;
+      font-size: 1.125rem;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    
+    /* Hero */
+    .hero {
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+    
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+    
+    .hero .subhead {
+      font-size: 1.25rem;
+      color: var(--ink-light);
+      margin-bottom: 48px;
+    }
+    
+    .bullets {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      margin-bottom: 48px;
+      flex-wrap: wrap;
+    }
+    
+    .bullets li {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 1rem;
+      color: var(--ink-muted);
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background-color: var(--accent);
+      color: white;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-weight: 500;
+      font-size: 1.125rem;
+      padding: 16px 40px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+    
+    .cta-button:hover {
+      transform: scale(1.02);
+    }
+    
+    .cta-button:active {
+      transform: scale(0.98);
+    }
+    
+    /* Explanation */
+    .explanation {
+      padding: 60px 0;
+      border-top: 1px solid var(--warm-300);
+    }
+    
+    .explanation p {
+      font-size: 1.125rem;
+      color: var(--ink-light);
+      text-align: center;
+      max-width: 480px;
+      margin: 0 auto 40px;
+    }
+    
+    /* Waitlist form */
+    .waitlist-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .form-group {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .form-group input {
+      flex: 1;
+      min-width: 200px;
+      padding: 14px 18px;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 1rem;
+      border: 1px solid var(--warm-300);
+      border-radius: 8px;
+      background-color: white;
+      color: var(--ink);
+    }
+    
+    .form-group input:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    
+    .form-group button {
+      padding: 14px 24px;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    
+    .form-group button:hover {
+      transform: scale(1.02);
+    }
+    
+    .success-message {
+      display: none;
+      text-align: center;
+      padding: 20px;
+      background-color: var(--accent-light);
+      border-radius: 8px;
+      color: var(--ink);
+    }
+    
+    .success-message.show {
+      display: block;
+    }
+    
+    /* Footer */
+    footer {
+      padding: 40px 0;
+      border-top: 1px solid var(--warm-300);
+      text-align: center;
+    }
+    
+    footer p {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 0.875rem;
+      color: var(--ink-muted);
+    }
+    
+    /* Responsive */
+    @media (max-width: 640px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .bullets {
+        flex-direction: column;
+        gap: 12px;
+      }
+      
+      .form-group {
+        flex-direction: column;
+      }
+      
+      .form-group input,
+      .form-group button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo">Story Jigsaw</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>A story, out of order.</h1>
+        <p class="subhead">Story Jigsaw is a once-a-day puzzle where you piece a short story back together.</p>
+        
+        <ul class="bullets">
+          <li>No timer.</li>
+          <li>No trivia.</li>
+          <li>Just meaning.</li>
+        </ul>
+        
+        <a href="#waitlist" class="cta-button">Join the waitlist</a>
+      </div>
+    </section>
+
+    <section class="explanation" id="waitlist">
+      <div class="container">
+        <p>Each day, everyone gets the same story. The pieces are mixed up. Read carefully. Move the lines. Find the order that makes sense.</p>
+        
+        <div class="waitlist-form">
+          <form id="signup-form" class="form-group">
+            <input 
+              type="email" 
+              placeholder="your@email.com" 
+              required 
+              aria-label="Email address"
+            />
+            <button type="submit">Join</button>
+          </form>
+          <div id="success-message" class="success-message">
+            Thanks! We'll let you know when Story Jigsaw launches.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Story Jigsaw. Made with care.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('signup-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // For MVP, just show success message
+      // In production, this would send to a backend or email service
+      const form = document.getElementById('signup-form');
+      const successMessage = document.getElementById('success-message');
+      
+      form.style.display = 'none';
+      successMessage.classList.add('show');
+      
+      // Store email locally for demo purposes
+      const email = form.querySelector('input').value;
+      const waitlist = JSON.parse(localStorage.getItem('story-jigsaw-waitlist') || '[]');
+      waitlist.push({ email, timestamp: new Date().toISOString() });
+      localStorage.setItem('story-jigsaw-waitlist', JSON.stringify(waitlist));
+    });
+  </script>
+</body>
+</html>
