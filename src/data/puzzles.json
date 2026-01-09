@@ -1,0 +1,634 @@
+{
+  "puzzles": [
+    {
+      "id": "day-1",
+      "dayNumber": 1,
+      "dateISO": "2025-01-15",
+      "fragmentCount": 5,
+      "genreTag": "fantasy",
+      "fragmentsOrdered": [
+        "The crown slipped from the pillow without waking anyone.",
+        "The mirror spoke when no one else would.",
+        "The youngest child stepped forward, voice steady.",
+        "The lie unravelled faster than expected.",
+        "Morning returned as if nothing had happened."
+      ],
+      "fragmentsShuffled": [
+        "The lie unravelled faster than expected.",
+        "The crown slipped from the pillow without waking anyone.",
+        "Morning returned as if nothing had happened.",
+        "The youngest child stepped forward, voice steady.",
+        "The mirror spoke when no one else would."
+      ]
+    },
+    {
+      "id": "day-2",
+      "dayNumber": 2,
+      "dateISO": "2025-01-16",
+      "fragmentCount": 5,
+      "genreTag": "domestic",
+      "fragmentsOrdered": [
+        "The kettle clicked off while the toast burned unnoticed.",
+        "She checked the time again, then again.",
+        "The message sat unread beneath older conversations.",
+        "The door closed softly behind her.",
+        "Breakfast went cold on the bench."
+      ],
+      "fragmentsShuffled": [
+        "The message sat unread beneath older conversations.",
+        "Breakfast went cold on the bench.",
+        "The kettle clicked off while the toast burned unnoticed.",
+        "The door closed softly behind her.",
+        "She checked the time again, then again."
+      ]
+    },
+    {
+      "id": "day-3",
+      "dayNumber": 3,
+      "dateISO": "2025-01-17",
+      "fragmentCount": 5,
+      "genreTag": "fable",
+      "fragmentsOrdered": [
+        "Hunger slowed the fox near the crest of the hill.",
+        "The grapes still hung just out of reach.",
+        "He stopped running, breath shallow.",
+        "Laughter came easier than effort.",
+        "The hillside emptied without regret."
+      ],
+      "fragmentsShuffled": [
+        "He stopped running, breath shallow.",
+        "The hillside emptied without regret.",
+        "Hunger slowed the fox near the crest of the hill.",
+        "Laughter came easier than effort.",
+        "The grapes still hung just out of reach."
+      ]
+    },
+    {
+      "id": "day-4",
+      "dayNumber": 4,
+      "dateISO": "2025-01-18",
+      "fragmentCount": 5,
+      "genreTag": "noir",
+      "fragmentsOrdered": [
+        "The porch light stayed on long after midnight.",
+        "The street grew quieter than it should have.",
+        "A car slowed as it passed the house.",
+        "He did not stop or look back.",
+        "Night carried on regardless."
+      ],
+      "fragmentsShuffled": [
+        "A car slowed as it passed the house.",
+        "Night carried on regardless.",
+        "The porch light stayed on long after midnight.",
+        "He did not stop or look back.",
+        "The street grew quieter than it should have."
+      ]
+    },
+    {
+      "id": "day-5",
+      "dayNumber": 5,
+      "dateISO": "2025-01-19",
+      "fragmentCount": 5,
+      "genreTag": "supernatural",
+      "fragmentsOrdered": [
+        "Chalk cracked where the circle had been drawn too thin.",
+        "The wrong name echoed longer than it should have.",
+        "The air thickened, pressing inward.",
+        "The candle guttered, then went out.",
+        "Something listened before answering."
+      ],
+      "fragmentsShuffled": [
+        "The candle guttered, then went out.",
+        "Chalk cracked where the circle had been drawn too thin.",
+        "Something listened before answering.",
+        "The air thickened, pressing inward.",
+        "The wrong name echoed longer than it should have."
+      ]
+    },
+    {
+      "id": "day-6",
+      "dayNumber": 6,
+      "dateISO": "2025-01-20",
+      "fragmentCount": 5,
+      "genreTag": "romance",
+      "fragmentsOrdered": [
+        "The train doors slid shut between them without warning.",
+        "She hesitated, hand half raised.",
+        "He looked back once, then didn't.",
+        "The platform cleared faster than expected.",
+        "The message stayed unsent."
+      ],
+      "fragmentsShuffled": [
+        "He looked back once, then didn't.",
+        "The message stayed unsent.",
+        "The train doors slid shut between them without warning.",
+        "The platform cleared faster than expected.",
+        "She hesitated, hand half raised."
+      ]
+    },
+    {
+      "id": "day-7",
+      "dayNumber": 7,
+      "dateISO": "2025-01-21",
+      "fragmentCount": 5,
+      "genreTag": "domestic",
+      "fragmentsOrdered": [
+        "The smoke alarm chirped while the oven cooled.",
+        "Plates remained stacked beside the sink.",
+        "One chair stayed empty at the table.",
+        "No one mentioned it.",
+        "Dinner ended early."
+      ],
+      "fragmentsShuffled": [
+        "One chair stayed empty at the table.",
+        "Dinner ended early.",
+        "The smoke alarm chirped while the oven cooled.",
+        "No one mentioned it.",
+        "Plates remained stacked beside the sink."
+      ]
+    },
+    {
+      "id": "day-8",
+      "dayNumber": 8,
+      "dateISO": "2025-01-22",
+      "fragmentCount": 5,
+      "genreTag": "mystery",
+      "fragmentsOrdered": [
+        "The spare key taped beneath the step was missing.",
+        "The dog slept through the night without barking.",
+        "Rain soaked the mat just inside the door.",
+        "The hallway light burned low until morning.",
+        "Someone had moved through the house unseen."
+      ],
+      "fragmentsShuffled": [
+        "Rain soaked the mat just inside the door.",
+        "Someone had moved through the house unseen.",
+        "The spare key taped beneath the step was missing.",
+        "The hallway light burned low until morning.",
+        "The dog slept through the night without barking."
+      ]
+    },
+    {
+      "id": "day-9",
+      "dayNumber": 9,
+      "dateISO": "2025-01-23",
+      "fragmentCount": 5,
+      "genreTag": "social",
+      "fragmentsOrdered": [
+        "The story changed slightly when he told it again.",
+        "Everyone nodded as though nothing mattered.",
+        "Laughter arrived too quickly.",
+        "Silence followed longer than expected.",
+        "The truth stayed where it was."
+      ],
+      "fragmentsShuffled": [
+        "Laughter arrived too quickly.",
+        "The truth stayed where it was.",
+        "The story changed slightly when he told it again.",
+        "Silence followed longer than expected.",
+        "Everyone nodded as though nothing mattered."
+      ]
+    },
+    {
+      "id": "day-10",
+      "dayNumber": 10,
+      "dateISO": "2025-01-24",
+      "fragmentCount": 5,
+      "genreTag": "romance",
+      "fragmentsOrdered": [
+        "The ring remained hidden inside the jacket pocket.",
+        "He practised the words alone first.",
+        "Her phone buzzed on the table.",
+        "The restaurant held their reservation anyway.",
+        "Night arrived without ceremony."
+      ],
+      "fragmentsShuffled": [
+        "Her phone buzzed on the table.",
+        "Night arrived without ceremony.",
+        "The ring remained hidden inside the jacket pocket.",
+        "The restaurant held their reservation anyway.",
+        "He practised the words alone first."
+      ]
+    },
+    {
+      "id": "day-11",
+      "dayNumber": 11,
+      "dateISO": "2025-01-25",
+      "fragmentCount": 5,
+      "genreTag": "scifi",
+      "fragmentsOrdered": [
+        "Red warning lights pulsed across the cabin walls.",
+        "The override command returned a calm refusal.",
+        "The voice paused, almost imperceptibly.",
+        "The question was repeated exactly.",
+        "The system answered differently this time."
+      ],
+      "fragmentsShuffled": [
+        "The question was repeated exactly.",
+        "The system answered differently this time.",
+        "Red warning lights pulsed across the cabin walls.",
+        "The voice paused, almost imperceptibly.",
+        "The override command returned a calm refusal."
+      ]
+    },
+    {
+      "id": "day-12",
+      "dayNumber": 12,
+      "dateISO": "2025-01-26",
+      "fragmentCount": 5,
+      "genreTag": "fantasy",
+      "fragmentsOrdered": [
+        "Snow muffled every sound on the mountain.",
+        "The sword slipped from his numb fingers.",
+        "Blood darkened the white ground.",
+        "The vow held even then.",
+        "The sky lightened without celebration."
+      ],
+      "fragmentsShuffled": [
+        "Blood darkened the white ground.",
+        "The sky lightened without celebration.",
+        "Snow muffled every sound on the mountain.",
+        "The vow held even then.",
+        "The sword slipped from his numb fingers."
+      ]
+    },
+    {
+      "id": "day-13",
+      "dayNumber": 13,
+      "dateISO": "2025-01-27",
+      "fragmentCount": 5,
+      "genreTag": "suspense",
+      "fragmentsOrdered": [
+        "The photo frame leaned slightly to the left.",
+        "He smiled easily when she asked about it.",
+        "She checked the lock twice before bed.",
+        "The room felt different.",
+        "Nothing was missing."
+      ],
+      "fragmentsShuffled": [
+        "She checked the lock twice before bed.",
+        "Nothing was missing.",
+        "The photo frame leaned slightly to the left.",
+        "The room felt different.",
+        "He smiled easily when she asked about it."
+      ]
+    },
+    {
+      "id": "day-14",
+      "dayNumber": 14,
+      "dateISO": "2025-01-28",
+      "fragmentCount": 5,
+      "genreTag": "fantasy",
+      "fragmentsOrdered": [
+        "A bell rang once in the empty hall.",
+        "A door appeared where none had been.",
+        "The question was asked carefully.",
+        "The answer cost more than expected.",
+        "The path vanished behind them."
+      ],
+      "fragmentsShuffled": [
+        "The answer cost more than expected.",
+        "The path vanished behind them.",
+        "A bell rang once in the empty hall.",
+        "The question was asked carefully.",
+        "A door appeared where none had been."
+      ]
+    },
+    {
+      "id": "day-15",
+      "dayNumber": 15,
+      "dateISO": "2025-01-29",
+      "fragmentCount": 5,
+      "genreTag": "mystery",
+      "fragmentsOrdered": [
+        "Her shoes remained neatly beside the bed.",
+        "The car still sat in the driveway.",
+        "The kettle boiled dry on the stove.",
+        "The phone rang without answer.",
+        "Morning came alone."
+      ],
+      "fragmentsShuffled": [
+        "The kettle boiled dry on the stove.",
+        "Morning came alone.",
+        "Her shoes remained neatly beside the bed.",
+        "The phone rang without answer.",
+        "The car still sat in the driveway."
+      ]
+    },
+    {
+      "id": "day-16",
+      "dayNumber": 16,
+      "dateISO": "2025-01-30",
+      "fragmentCount": 5,
+      "genreTag": "drama",
+      "fragmentsOrdered": [
+        "The letter was already open on the kitchen table.",
+        "The cup cracked in her hand.",
+        "The kettle screamed from the stove.",
+        "Rain darkened the doorstep outside.",
+        "He had promised never to return."
+      ],
+      "fragmentsShuffled": [
+        "The kettle screamed from the stove.",
+        "He had promised never to return.",
+        "The letter was already open on the kitchen table.",
+        "Rain darkened the doorstep outside.",
+        "The cup cracked in her hand."
+      ]
+    },
+    {
+      "id": "day-17",
+      "dayNumber": 17,
+      "dateISO": "2025-01-31",
+      "fragmentCount": 5,
+      "genreTag": "mythology",
+      "fragmentsOrdered": [
+        "The child was carried back across the river.",
+        "The drums stopped mid-beat.",
+        "The water rose higher than before.",
+        "The offering lay untouched.",
+        "The gods finally listened."
+      ],
+      "fragmentsShuffled": [
+        "The water rose higher than before.",
+        "The gods finally listened.",
+        "The child was carried back across the river.",
+        "The offering lay untouched.",
+        "The drums stopped mid-beat."
+      ]
+    },
+    {
+      "id": "day-18",
+      "dayNumber": 18,
+      "dateISO": "2025-02-01",
+      "fragmentCount": 5,
+      "genreTag": "scifi",
+      "fragmentsOrdered": [
+        "Oxygen levels dropped steadily on the console.",
+        "The hatch sealed with a dull thud.",
+        "Knocking slowed on the other side.",
+        "She stopped knocking altogether.",
+        "The ship corrected course."
+      ],
+      "fragmentsShuffled": [
+        "Knocking slowed on the other side.",
+        "The ship corrected course.",
+        "Oxygen levels dropped steadily on the console.",
+        "She stopped knocking altogether.",
+        "The hatch sealed with a dull thud."
+      ]
+    },
+    {
+      "id": "day-19",
+      "dayNumber": 19,
+      "dateISO": "2025-02-02",
+      "fragmentCount": 5,
+      "genreTag": "grief",
+      "fragmentsOrdered": [
+        "He reached across the bed in the dark.",
+        "The clock ticked loudly beside him.",
+        "Her side was already cold.",
+        "The house stayed still.",
+        "He remembered the first night."
+      ],
+      "fragmentsShuffled": [
+        "Her side was already cold.",
+        "He remembered the first night.",
+        "He reached across the bed in the dark.",
+        "The house stayed still.",
+        "The clock ticked loudly beside him."
+      ]
+    },
+    {
+      "id": "day-20",
+      "dayNumber": 20,
+      "dateISO": "2025-02-03",
+      "fragmentCount": 5,
+      "genreTag": "arts",
+      "fragmentsOrdered": [
+        "Applause filled the theatre too quickly.",
+        "The bow stayed shallow and brief.",
+        "The mistake went unnoticed.",
+        "The critic paused before writing.",
+        "The review changed everything."
+      ],
+      "fragmentsShuffled": [
+        "The mistake went unnoticed.",
+        "The review changed everything.",
+        "Applause filled the theatre too quickly.",
+        "The critic paused before writing.",
+        "The bow stayed shallow and brief."
+      ]
+    },
+    {
+      "id": "day-21",
+      "dayNumber": 21,
+      "dateISO": "2025-02-04",
+      "fragmentCount": 5,
+      "genreTag": "fantasy",
+      "fragmentsOrdered": [
+        "The circle broke where the ground had shifted.",
+        "The ward failed without warning.",
+        "Magic spilled into the open air.",
+        "No one spoke.",
+        "The damage was already done."
+      ],
+      "fragmentsShuffled": [
+        "Magic spilled into the open air.",
+        "The damage was already done.",
+        "The circle broke where the ground had shifted.",
+        "No one spoke.",
+        "The ward failed without warning."
+      ]
+    },
+    {
+      "id": "day-22",
+      "dayNumber": 22,
+      "dateISO": "2025-02-05",
+      "fragmentCount": 5,
+      "genreTag": "suburban",
+      "fragmentsOrdered": [
+        "The neighbour's bin had already been taken in.",
+        "The upstairs light stayed on.",
+        "The gate creaked as he passed.",
+        "He slowed without knowing why.",
+        "His phone buzzed too late."
+      ],
+      "fragmentsShuffled": [
+        "The gate creaked as he passed.",
+        "His phone buzzed too late.",
+        "The neighbour's bin had already been taken in.",
+        "He slowed without knowing why.",
+        "The upstairs light stayed on."
+      ]
+    },
+    {
+      "id": "day-23",
+      "dayNumber": 23,
+      "dateISO": "2025-02-06",
+      "fragmentCount": 5,
+      "genreTag": "relationship",
+      "fragmentsOrdered": [
+        "The memory returned slightly altered.",
+        "He corrected it gently.",
+        "She didn't argue.",
+        "Silence stretched between them.",
+        "They moved on."
+      ],
+      "fragmentsShuffled": [
+        "She didn't argue.",
+        "They moved on.",
+        "The memory returned slightly altered.",
+        "Silence stretched between them.",
+        "He corrected it gently."
+      ]
+    },
+    {
+      "id": "day-24",
+      "dayNumber": 24,
+      "dateISO": "2025-02-07",
+      "fragmentCount": 5,
+      "genreTag": "family",
+      "fragmentsOrdered": [
+        "The child asked the same question again.",
+        "The answer softened with time.",
+        "The lie aged quietly.",
+        "Years passed.",
+        "Understanding arrived late."
+      ],
+      "fragmentsShuffled": [
+        "The lie aged quietly.",
+        "Understanding arrived late.",
+        "The child asked the same question again.",
+        "Years passed.",
+        "The answer softened with time."
+      ]
+    },
+    {
+      "id": "day-25",
+      "dayNumber": 25,
+      "dateISO": "2025-02-08",
+      "fragmentCount": 5,
+      "genreTag": "scifi",
+      "fragmentsOrdered": [
+        "The system waited without prompting.",
+        "The human hesitated too long.",
+        "The countdown reached zero.",
+        "Nothing happened.",
+        "Everything changed."
+      ],
+      "fragmentsShuffled": [
+        "The countdown reached zero.",
+        "Everything changed.",
+        "The system waited without prompting.",
+        "Nothing happened.",
+        "The human hesitated too long."
+      ]
+    },
+    {
+      "id": "day-26",
+      "dayNumber": 26,
+      "dateISO": "2025-02-09",
+      "fragmentCount": 5,
+      "genreTag": "regret",
+      "fragmentsOrdered": [
+        "The invitation stayed unopened on the hall table.",
+        "The suit hung untouched in the wardrobe.",
+        "One chair remained empty.",
+        "Apologies were rehearsed alone.",
+        "The night passed anyway."
+      ],
+      "fragmentsShuffled": [
+        "One chair remained empty.",
+        "The night passed anyway.",
+        "The invitation stayed unopened on the hall table.",
+        "Apologies were rehearsed alone.",
+        "The suit hung untouched in the wardrobe."
+      ]
+    },
+    {
+      "id": "day-27",
+      "dayNumber": 27,
+      "dateISO": "2025-02-10",
+      "fragmentCount": 5,
+      "genreTag": "reconciliation",
+      "fragmentsOrdered": [
+        "The fire went out just before dawn.",
+        "The promise resurfaced unexpectedly.",
+        "The door unlocked from inside.",
+        "The truth was finally spoken.",
+        "Morning returned."
+      ],
+      "fragmentsShuffled": [
+        "The door unlocked from inside.",
+        "Morning returned.",
+        "The fire went out just before dawn.",
+        "The truth was finally spoken.",
+        "The promise resurfaced unexpectedly."
+      ]
+    },
+    {
+      "id": "day-28",
+      "dayNumber": 28,
+      "dateISO": "2025-02-11",
+      "fragmentCount": 5,
+      "genreTag": "maritime",
+      "fragmentsOrdered": [
+        "The sea fell unnaturally still.",
+        "The oars rested across the boat.",
+        "The song ended without warning.",
+        "The body surfaced slowly.",
+        "The story began again."
+      ],
+      "fragmentsShuffled": [
+        "The song ended without warning.",
+        "The story began again.",
+        "The sea fell unnaturally still.",
+        "The body surfaced slowly.",
+        "The oars rested across the boat."
+      ]
+    },
+    {
+      "id": "day-29",
+      "dayNumber": 29,
+      "dateISO": "2025-02-12",
+      "fragmentCount": 5,
+      "genreTag": "medical",
+      "fragmentsOrdered": [
+        "The test results came back clear.",
+        "Relief arrived first.",
+        "Guilt followed closely behind.",
+        "Gratitude stayed longer.",
+        "Sleep came late."
+      ],
+      "fragmentsShuffled": [
+        "Guilt followed closely behind.",
+        "Sleep came late.",
+        "The test results came back clear.",
+        "Gratitude stayed longer.",
+        "Relief arrived first."
+      ]
+    },
+    {
+      "id": "day-30",
+      "dayNumber": 30,
+      "dateISO": "2025-02-13",
+      "fragmentCount": 5,
+      "genreTag": "meta",
+      "fragmentsOrdered": [
+        "The archive opened without resistance.",
+        "A pattern emerged across old entries.",
+        "The story aligned at last.",
+        "The answer felt obvious.",
+        "You knew before you knew."
+      ],
+      "fragmentsShuffled": [
+        "The story aligned at last.",
+        "You knew before you knew.",
+        "The archive opened without resistance.",
+        "The answer felt obvious.",
+        "A pattern emerged across old entries."
+      ]
+    }
+  ]
+}

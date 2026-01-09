@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #FAF9F6;
+  color: #2C2C2C;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Text size variants for accessibility */
+.text-size-default {
+  --story-size: 1.125rem;
+  --story-line-height: 1.75;
+}
+
+.text-size-large {
+  --story-size: 1.25rem;
+  --story-line-height: 1.75;
+}
+
+.text-size-xl {
+  --story-size: 1.5rem;
+  --story-line-height: 1.8;
+}
+
+.story-text {
+  font-size: var(--story-size, 1.125rem);
+  line-height: var(--story-line-height, 1.75);
+}
+
+/* High contrast mode */
+.high-contrast {
+  --ink-color: #000000;
+  --bg-color: #FFFFFF;
+  --border-color: #000000;
+}
+
+.high-contrast body {
+  background-color: var(--bg-color);
+  color: var(--ink-color);
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+
+/* Drag handle styling */
+.drag-handle {
+  cursor: grab;
+  touch-action: none;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+/* Fragment card styles */
+.fragment-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fragment-card.dragging {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  transform: scale(1.02);
+  z-index: 100;
+}
+
+/* Safe area insets for notched devices */
+.safe-area-top {
+  padding-top: env(safe-area-inset-top, 0);
+}
+
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+/* Focus visible styles for accessibility */
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid #6B8E7B;
+  outline-offset: 2px;
+}
+
+/* Selection color */
+::selection {
+  background-color: #E8F0EB;
+  color: #2C2C2C;
+}
